@@ -1,20 +1,31 @@
 h1{
+    text-align: center;
     color: rgb(11, 211, 111);
-    background-image: url("imagens/jordao.jpg");
-    
-display: block;}
+    background-image: url("imagens/locjordao.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    display: block;}
 
-.supertitulo{font-size: 50px;}
+.supertitulo{
+    font-size: 50px;   
+}
+
 #tituloprincipal{text-align: center;font-size: 90px;}
-.subtitulo{font-size: 30px; color: rgb(1, 80, 5);}
+
+.subtitulo{
+    font-size: 30px; 
+    color: rgb(1, 80, 5);
+}
 
 .minhalista li{
     color: salmon;
 }
-
 body{
-    background-color: rgb(175, 243, 191);
-    background-repeat: repeat;
+    background-color: rgb(209, 253, 219);
+    margin: 0px 400px;
+    border-left: 3px dotted rgb(45, 177, 13);
+    border-right: 3px dotted rgb(45, 177, 13);
+    padding: 0px 10px;
 }
 
 .caixa{
@@ -26,9 +37,16 @@ body{
 }
 
 .redessociais{
-    color: rgb(241, 6, 6);
+    color: rgb(6, 10, 241);
 }
 
-.imagem{
-    
+#bordaredes{
+    text-shadow: #000000;
+    text-align: center;
+    background: rgb(255, 255, 58);
+    width: 130px;
+    margin: 5px;
+    padding: 5px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
 }
