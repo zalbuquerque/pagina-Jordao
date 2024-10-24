@@ -11,7 +11,10 @@ h1{
     font-size: 50px;   
 }
 
-#tituloprincipal{text-align: center;font-size: 90px;}
+#tituloprincipal{
+    text-align: center;
+    font-size: 90px;
+}
 
 .subtitulo{
     font-size: 30px; 
@@ -19,10 +22,6 @@ h1{
 
 }
 
-
-.minhalista li{
-    color: salmon;
-}
 
 body{
     background-image: url(imagens/gy.jpg);
